@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal, safe base styles (no custom tokens needed) */
+@layer base {
+  html, body {
+    height: 100%;
+  }
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+}
